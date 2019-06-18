@@ -8,6 +8,7 @@ class Song
     @artist = artist
     @genre = genre
     @@all << self 
+    #binding.pry 
   end 
   
   def self.all 

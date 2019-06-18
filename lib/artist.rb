@@ -18,7 +18,11 @@ class Artist
   end
   
   def songs 
+<<<<<<< HEAD
     Song.all.select {|song_object| song_object.artist == self }
+=======
+    Song.all.select {|object| object.artist == self }
+>>>>>>> 89cdd68c05d7f616f8b8bedaf09fc8f4c62e57a3
   end 
   
   def genres 

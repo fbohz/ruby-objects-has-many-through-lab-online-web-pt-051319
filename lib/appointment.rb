@@ -1,4 +1,5 @@
 class Appointment
+<<<<<<< HEAD
   attr_accessor :date, :patient, :doctor 
   @@all = []
   
@@ -13,4 +14,7 @@ class Appointment
     @@all
   end 
   
+=======
+
+>>>>>>> 89cdd68c05d7f616f8b8bedaf09fc8f4c62e57a3
 end 

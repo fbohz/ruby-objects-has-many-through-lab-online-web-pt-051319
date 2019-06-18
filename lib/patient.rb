@@ -1,4 +1,5 @@
 class Patient
+<<<<<<< HEAD
    attr_accessor :name 
    @@all = []
    
@@ -23,5 +24,7 @@ class Patient
   def doctors
     appointments.collect { |appointment| appointment.doctor }
   end 
+=======
+>>>>>>> 89cdd68c05d7f616f8b8bedaf09fc8f4c62e57a3
   
 end 
